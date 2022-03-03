@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.release.1973276529">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.release.1973276529" moduleId="org.eclipse.cdt.core.settings" name="Release all targets">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextPropertyValue" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextPropertyValue" description="" errorParsers="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextErrorParser;org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser" id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.release.1973276529" name="Release all targets" optionalBuildProperties="" parent="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.release">
+					<folderInfo id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.release.1973276529." name="/" resourcePath="">
+						<toolChain id="com.phoenixcontact.plcnext.cplusplus.toolchains.toolchain.release.523770897" name="PLCnext C++ Toolchain" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.toolchain.release">
+							<targetPlatform id="com.phoenixcontact.plcnext.cplusplus.toolchains.targetPlatform.1151427986" isAbstract="false" name="PlcNext" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/WIGSUL}/bin" id="com.phoenixcontact.plcnext.cplusplus.toolchains.builder.771943315" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="PLCnCLI Builder" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.builder"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.1210000877" name="PLCnCLI - Build" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.1395052289" name="PLCnCLI" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool">
+								<inputType id="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.inputtype.2066541584" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.inputtype"/>
+							</tool>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.metacodetool.641542468" name="PLCnCLI - Metacode Generation" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.metacodetool"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.metadatatool.768025704" name="PLCnCLI - Metadata Generation" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.metadatatool"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuilder.1915143932" name="PLCnCLI - Deploy" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuilder"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debug">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debug" moduleId="org.eclipse.cdt.core.settings" name="Debug all targets">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextPropertyValue" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextPropertyValue" description="" errorParsers="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextErrorParser;org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser" id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debug" name="Debug all targets" optionalBuildProperties="" parent="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.release">
+					<folderInfo id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debug." name="/" resourcePath="">
+						<toolChain id="com.phoenixcontact.plcnext.cplusplus.toolchains.toolchain.release.1456495079" name="PLCnext C++ Toolchain" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.toolchain.release">
+							<targetPlatform id="com.phoenixcontact.plcnext.cplusplus.toolchains.targetPlatform.285066492" isAbstract="false" name="PlcNext" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/WIGSUL}/bin" id="com.phoenixcontact.plcnext.cplusplus.toolchains.builder.1590071694" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="PLCnCLI Builder" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.builder"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.48410069" name="PLCnCLI - Build" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool">
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optionbuildtype.1312028421" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optionbuildtype" value="Debug" valueType="enumerated"/>
+							</tool>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.1821978154" name="PLCnCLI" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool">
+								<inputType id="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.inputtype.927840967" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.inputtype"/>
+							</tool>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.metacodetool.373864805" name="PLCnCLI - Metacode Generation" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.metacodetool"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.metadatatool.749359141" name="PLCnCLI - Metadata Generation" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.metadatatool"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuilder.494265962" name="PLCnCLI - Deploy" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuilder">
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optionbuildtype.1029975683" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optionbuildtype" value="Debug" valueType="enumerated"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.releaseAXCF2152,2021.0.3 LTS (21.0.3.35554)">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.releaseAXCF2152,2021.0.3 LTS (21.0.3.35554)" moduleId="org.eclipse.cdt.core.settings" name="Release AXCF2152,2021.0.3 LTS (21.0.3.35554)">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextPropertyValue" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextPropertyValue" description="" errorParsers="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextErrorParser;org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser" id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.releaseAXCF2152,2021.0.3 LTS (21.0.3.35554)" name="Release AXCF2152,2021.0.3 LTS (21.0.3.35554)" optionalBuildProperties="" parent="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.release">
+					<folderInfo id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.releaseAXCF2152,2021.0.3 LTS (21.0.3.35554)." name="/" resourcePath="">
+						<toolChain id="com.phoenixcontact.plcnext.cplusplus.toolchains.toolchain.release.1996903226" name="PLCnext C++ Toolchain" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.toolchain.release">
+							<targetPlatform id="com.phoenixcontact.plcnext.cplusplus.toolchains.targetPlatform.1903868673" isAbstract="false" name="PlcNext" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/WIGSUL}/bin" id="com.phoenixcontact.plcnext.cplusplus.toolchains.builder.1909781103" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="PLCnCLI Builder" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.builder"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.123180957" name="PLCnCLI - Build" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool">
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optionbuildtype.1237299902" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optionbuildtype" value="Release" valueType="enumerated"/>
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optiontarget.1384485671" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optiontarget" value="&quot;AXCF2152,2021.0.3 LTS (21.0.3.35554)&quot;" valueType="string"/>
+							</tool>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.1474247459" name="PLCnCLI" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool">
+								<inputType id="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.inputtype.2102466612" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.inputtype"/>
+							</tool>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.metacodetool.1356046120" name="PLCnCLI - Metacode Generation" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.metacodetool"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.metadatatool.1043589412" name="PLCnCLI - Metadata Generation" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.metadatatool"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuilder.2096207536" name="PLCnCLI - Deploy" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuilder">
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optiontarget.1252317120" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optiontarget" value="&quot;AXCF2152,2021.0.3 LTS (21.0.3.35554)&quot;" valueType="string"/>
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optionbuildtype.1400594570" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optionbuildtype" value="Release" valueType="enumerated"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debugAXCF2152,2021.0.3 LTS (21.0.3.35554)">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debugAXCF2152,2021.0.3 LTS (21.0.3.35554)" moduleId="org.eclipse.cdt.core.settings" name="Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextPropertyValue" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextPropertyValue" description="" errorParsers="com.phoenixcontact.plcnext.cplusplus.toolchains.plcnextErrorParser;org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser" id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debugAXCF2152,2021.0.3 LTS (21.0.3.35554)" name="Debug AXCF2152,2021.0.3 LTS (21.0.3.35554)" optionalBuildProperties="" parent="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.release">
+					<folderInfo id="com.phoenixcontact.plcnext.cplusplus.toolchains.configuration.debugAXCF2152,2021.0.3 LTS (21.0.3.35554)." name="/" resourcePath="">
+						<toolChain id="com.phoenixcontact.plcnext.cplusplus.toolchains.toolchain.release.391558709" name="PLCnext C++ Toolchain" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.toolchain.release">
+							<targetPlatform id="com.phoenixcontact.plcnext.cplusplus.toolchains.targetPlatform.1649400814" isAbstract="false" name="PlcNext" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/WIGSUL}/bin" id="com.phoenixcontact.plcnext.cplusplus.toolchains.builder.761518460" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="PLCnCLI Builder" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.builder"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.1646646090" name="PLCnCLI - Build" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool">
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optionbuildtype.736469047" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optionbuildtype" value="Debug" valueType="enumerated"/>
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optiontarget.759109512" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.buildtool.optiontarget" value="&quot;AXCF2152,2021.0.3 LTS (21.0.3.35554)&quot;" valueType="string"/>
+							</tool>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.956714618" name="PLCnCLI" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool">
+								<inputType id="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.inputtype.91957015" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.helpertool.inputtype"/>
+							</tool>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.metacodetool.1412630423" name="PLCnCLI - Metacode Generation" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.metacodetool"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.metadatatool.2073490338" name="PLCnCLI - Metadata Generation" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.metadatatool"/>
+							<tool id="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuilder.1763208781" name="PLCnCLI - Deploy" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuilder">
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optiontarget.700508654" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optiontarget" value="&quot;AXCF2152,2021.0.3 LTS (21.0.3.35554)&quot;" valueType="string"/>
+								<option id="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optionbuildtype.1559390088" superClass="com.phoenixcontact.plcnext.cplusplus.toolchains.librarybuildtool.optionbuildtype" value="Debug" valueType="enumerated"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="WIGSUL.com.phoenixcontact.plcnext.cplusplus.toolchains.projectType.1410419400" name="PLCnext Project" projectType="com.phoenixcontact.plcnext.cplusplus.toolchains.projectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
